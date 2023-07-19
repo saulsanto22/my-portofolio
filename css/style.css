@@ -11,3 +11,7 @@ h2 {
 section {
   min-height: 600px;
 }
+
+.portfolio {
+  background-color: #eee;
+}
