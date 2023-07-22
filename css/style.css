@@ -3,13 +3,18 @@ html {
 }
 
 body {
-  margin-top: 40px;
-  margin-bottom: 100%;
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+
+.jumbotron {
+  background-image: url(../img/header-bg.jpg);
+  background-attachment: fixed;
 }
 
 .jumbotron img {
   width: 200px;
-  border: 5pc solid #333;
+  border: 5px solid #333;
 }
 
 h2 {
@@ -42,4 +47,3 @@ footer p {
   color: #aaa;
   font-size: 1em;
 }
-
