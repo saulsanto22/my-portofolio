@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -36,13 +36,13 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="" class="navbar-brand">My Portofolio</a>
+          <a href="#home" class="navbar-brand page-scroll">My Portofolio</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="">Tentang</a></li>
-            <li><a href="">Portofolio</a></li>
-            <li><a href="">Kontak</a></li>
+            <li><a href="#about" class="page-scroll">Tentang Saya</a></li>
+            <li><a href="#portfolio" class="page-scroll">Portofolio</a></li>
+            <li><a href="#contact" class="page-scroll">Kontak</a></li>
           </ul>
         </div>
       </div>
@@ -60,11 +60,11 @@
 
     <!-- About -->
 
-    <section class="about" id="Tentang Saya">
+    <section class="about" id="about">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h2 class="text-center">About</h2>
+            <h2 class="text-center">Tentang Saya</h2>
             <hr />
           </div>
         </div>
@@ -146,7 +146,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
-            <h2>Contact</h2>
+            <h2>Kontak</h2>
           </div>
         </div>
         <div class="row">
@@ -222,7 +222,10 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
